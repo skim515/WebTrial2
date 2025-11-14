@@ -1,0 +1,97 @@
+#
+# _brand.yml for Quarto websites mini course
+#
+
+meta:
+  name: Quarto website course
+  license: CC BY-SA 4.0
+  link:
+    home: https://www.andrewheiss.com/
+
+color:
+  # Colors from MoMAColors::moma.colors("ustwo"), supplemented with CARTOColors (Prism)
+  palette:
+    blue: "#008d98"    # ustwo
+    indigo: "#5F4690"  # Prism
+    purple: "#994E95"  # Prism
+    pink: "#f06a63"    # ustwo
+    red: "#d7433b"     # ustwo
+    orange: "#ff8e5e"  # ustwo
+    yellow: "#ffcc3d"  # ustwo
+    green: "#0F8554"   # Prism
+    teal: "#38A6A5"    # Prism
+    cyan: "#95caa6"    # ustwo
+
+    gray-100: "#f8f9fa"
+    gray-200: "#e9ecef"
+    gray-300: "#dddddd"
+    gray-400: "#ced4da"
+    gray-500: "#adb5bd"
+    gray-600: "#868e96"
+    gray-700: "#495057"
+    gray-800: "#343a40"
+    gray-900: "#212529"
+
+    off-white: "#F5F5F5"
+    black: "#111111"
+    light-gray: "#cdcdcd"
+
+  foreground: black
+  background: off-white
+  primary: red
+  secondary: blue
+  tertiary: teal
+  dark: black
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+      weight: [400, 700]
+    - family: Alan Sans
+      source: google
+      weight: [400, 500, 700]
+
+  base:
+    family: Open Sans
+    weight: 400
+
+  headings:
+    family: Alan Sans
+    weight: 700
+    color: red
+
+  link:
+    weight: 700
+    color: orange
+    decoration: none
+
+defaults:
+  bootstrap:
+    functions: # string with SCSS functions
+    defaults:  # list of Bootstrap Sass variables to override
+      link-hover-color: $brand-pink
+      font-family-headings: Alan Sans
+      navbar-font-family: Alan Sans
+      code-color: $brand-indigo
+
+      font-size-base: 1rem
+      h1-font-size: $font-size-base * 2.45
+      h2-font-size: $font-size-base * 1.85
+      h3-font-size: $font-size-base * 1.45
+      h4-font-size: $font-size-base * 1.2
+      h5-font-size: $font-size-base * 1
+      h6-font-size: $font-size-base * 0.8
+
+      # code-bg: lighten($brand-orange, 25%)  # Sass functions work here!
+      code-bg: rgba(233, 236, 239, 0.65)  # Same color as github div background
+    mixins:    # string with SCSS mixins
+    rules: |   # string with SCSS rules
+      #quarto-document-content h3 {
+          color: $brand-blue;
+          font-weight: 500;
+      }
+
+      .navbar-title {
+          font-size: 1.3em;
+      }

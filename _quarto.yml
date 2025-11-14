@@ -22,9 +22,10 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - Spacelab
+    #  - custom.scss
       - brand
-    css: styles.css
+    #css: styles.css
     toc: true
 
 editor: visual

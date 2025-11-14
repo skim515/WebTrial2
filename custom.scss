@@ -1,0 +1,29 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+/*-- scss:defaults --*/
+
+/*-- Built-in Bootstrap variables --*/
+$h2-font-size: 1.6rem ;
+$headings-font-weight: 500;
+$font-family-sans-serif: Roboto;
+
+/* Your own variables */
+$my-neat-red: #e21818;
+
+
+/*-- scss:rules --*/
+
+.my-red {
+  color: $my-neat-red;
+}
+
+h1 {
+  font-family: "Barrio";
+}
+
+#background h2 {
+  color: $my-neat-red;
+  font-style: italic;
+  font-size: 30px;
+}

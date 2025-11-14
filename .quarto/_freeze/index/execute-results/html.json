@@ -1,9 +1,11 @@
 {
-  "hash": "f222912efda33f6967eb153fe0bd810f",
+  "hash": "fb0978c3e35c224f451130bd608b97f9",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"WebTrial2\"\n---\n\nplyground site!\n\n{{< fa brands r-project>}}\n\n<i class=\"fa-regular fa-envelope\" title=\"An envelope\"\n\naria-hidden=\"true\"></i>\n\n{{< downloadthis img/urban.png>}}\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"WebTrial2\"\n---\n\nplyground site!\n\n{{< fa brands r-project>}}\n\n<i class=\"fa-regular fa-envelope\" title=\"An envelope\"\n\naria-hidden=\"true\"></i>\n\n{{< downloadthis img/urban.png>}}\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
