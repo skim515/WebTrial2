@@ -1,0 +1,30 @@
+project:
+  type: website
+  preview: 
+    port: 55555
+
+website:
+  title: "WebTrial2"
+  description: "Something"
+  cookie-consent: true
+  page-footer: "(c) 2025, 김소영"
+  announcement: 
+    content: "**Fun!** This is my playground site."
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: https://www.github.com 
+        icon: github
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
+

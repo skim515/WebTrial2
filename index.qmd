@@ -1,0 +1,19 @@
+---
+title: "WebTrial2"
+---
+
+plyground site!
+
+{{< fa brands r-project>}}
+
+<i class="fa-regular fa-envelope" title="An envelope"
+
+aria-hidden="true"></i>
+
+{{< downloadthis img/urban.png>}}
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
