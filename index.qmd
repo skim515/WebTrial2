@@ -2,16 +2,6 @@
 title: "WebTrial2"
 ---
 
-plyground site!
+under construction...
 
-{{< fa brands r-project>}}
-
-<i class="fa-regular fa-envelope" title="An envelope"
-
-aria-hidden="true"></i>
-
-{{< downloadthis img/urban.png>}}
-
-```{r}
-1 + 1
-```
+![](img/mywebgate1.png)

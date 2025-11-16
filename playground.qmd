@@ -1,0 +1,33 @@
+---
+title: "Playground"
+format: live-html
+engine: knitr
+---
+{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
+
+
+
+```{r}
+1+1
+```
+
+
+
+
+```{webr}
+1+1
+```
+
+
+```{webr}
+#| warning: false
+#| message: false
+library(tidyverse)
+library(plotly)
+
+p <- ggplot(mpg, aes(x = displ, y = hwy)) +
+  geom_point(aes(color = drv))
+
+ggplotly(p)
+
+```

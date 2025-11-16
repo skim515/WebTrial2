@@ -1,0 +1,28 @@
+---
+title: "Contact"
+#format: dashboard
+---
+
+### Email
+
+soyoungkim\[at\]jnu.ac.kr
+
+### Location
+
+Chonnam National University, 77 Yongbong-ro, Buk-gu, Gwangju
+
+```{r, echo=F}
+#| message: false
+#| warning: false
+#| paged-print: false
+library(leaflet)
+
+leaflet() |>
+  addTiles() |>
+  addMarkers(
+    lng = 126.906,
+    lat = 35.176, 
+    popup = "Chonnam National University"
+  )
+
+```

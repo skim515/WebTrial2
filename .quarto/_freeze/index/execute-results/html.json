@@ -1,11 +1,9 @@
 {
-  "hash": "fb0978c3e35c224f451130bd608b97f9",
+  "hash": "29dfa9cb7b7e76eb5d458120319d2021",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"WebTrial2\"\n---\n\nplyground site!\n\n{{< fa brands r-project>}}\n\n<i class=\"fa-regular fa-envelope\" title=\"An envelope\"\n\naria-hidden=\"true\"></i>\n\n{{< downloadthis img/urban.png>}}\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
-    "supporting": [
-      "index_files"
-    ],
+    "markdown": "---\ntitle: \"WebTrial2\"\n---\n\nplyground site!\n\n{{< fa brands r-project>}}\n\n<i class=\"fa-regular fa-envelope\" title=\"An envelope\"\n\naria-hidden=\"true\"></i>\n\n{{<GitHub/WebTrial2/mywebgate1.png>}}\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

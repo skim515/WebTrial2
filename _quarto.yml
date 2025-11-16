@@ -6,18 +6,34 @@ project:
 
 website:
   title: "WebTrial2"
-  description: "Something"
+  description: "Nothing"
   cookie-consent: true
-  page-footer: "(c) 2025, 김소영"
+  page-footer: "Copyright© 2025 Soyoung KIM. All rights reserved."
   announcement: 
-    content: "**Fun!** This is my playground site."
+    content: "This is my playground site."
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - href: https://www.github.com 
-        icon: github
+      - text: Home
+        href: index.qmd
+      - text: "{{< fa user >}} About"
+        href: about/index.qmd
+      - text: "{{< fa person-chalkboard >}} Teaching"
+        href: teaching/index.qmd
+      - text: "{{< fa flask >}} Research"
+        href: research/index.qmd
+      - text: "{{< fa lightbulb >}} Examples"
+        href: examples/index.qmd
+      - playground.qmd
+      - dashboard.qmd
+    right:
+      - icon: github
+        href: https://www.github.com 
+
+  sidebar:
+    - title: "{{< fa lightbulb >}} Examples"
+      contents:
+        # - examples/index.qmd
+        - auto: examples/*
 
 format:
   html:

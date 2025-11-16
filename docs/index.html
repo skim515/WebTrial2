@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -77,6 +42,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-b8c98f276c510cedb7fa401215005e80.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -130,8 +97,8 @@ cookieconsent.run({
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <div id="quarto-announcement" data-announcement-id="797f99be628ef809d7fd1c3a0684f165" class="alert alert-primary hidden"><div class="quarto-announcement-content">
-<p><strong>Fun!</strong> This is my playground site.</p>
+    <div id="quarto-announcement" data-announcement-id="a28e63652ecff5fb13449de2b31efaa2" class="alert alert-primary hidden"><div class="quarto-announcement-content">
+<p>This is my playground site.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
@@ -151,9 +118,31 @@ cookieconsent.run({
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about/index.qmd"> 
+<span class="menu-text"><i class="fa-solid fa-user" aria-label="user"></i> About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-flask" aria-label="flask"></i> Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./examples/index.html"> 
+<span class="menu-text"><i class="fa-solid fa-lightbulb" aria-label="lightbulb"></i> Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./playground.html"> 
+<span class="menu-text">Playground</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dashboard.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.github.com"> <i class="bi bi-github" role="img">
 </i> 
@@ -195,16 +184,8 @@ cookieconsent.run({
 </header>
 
 
-<p>plyground site!</p>
-{{&lt; fa brands r-project&gt;}}
-<p><i class="fa-regular fa-envelope" title="An envelope" aria-hidden="true"></i></p>
-{{&lt; downloadthis img/urban.png&gt;}}
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<p>under construction…</p>
+<p><img src="img/mywebgate1.png" class="img-fluid"></p>
 
 
 
@@ -615,9 +596,7 @@ cookieconsent.run({
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<ol start="3" type="a">
-<li>2025, 김소영</li>
-</ol>
+<p>Copyright© 2025 Soyoung KIM. All rights reserved.</p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
