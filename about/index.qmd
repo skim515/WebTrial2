@@ -5,7 +5,9 @@ format: html
 
 This is a brand colors example:
 
-```{r}
+```{r, echo=FALSE}
+#| warning: False
+#| message: false
 library(tidyverse)
 library(brand.yml)
 library(quarto)

@@ -74,7 +74,7 @@
     "href": "about/index.html",
     "title": "index",
     "section": "",
-    "text": "This is a brand colors example:\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.1     ✔ stringr   1.5.2\n✔ ggplot2   4.0.0     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.2.0     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(brand.yml)\nlibrary(quarto)\n\n\nAttaching package: 'quarto'\n\nThe following objects are masked from 'package:brand.yml':\n\n    theme_brand_flextable, theme_brand_ggplot2, theme_brand_gt,\n    theme_brand_plotly, theme_brand_thematic\n\nbrand &lt;- read_brand_yml(\"C:/Users/user/Documents/GitHub/WebTrial2/_brand.yml\")\nbrand_theme &lt;- theme_brand_ggplot2(\"C:/Users/user/Documents/GitHub/WebTrial2/_brand.yml\")\n\nggplot(mpg, aes(x = displ, y = hwy, color = drv)) +\n  geom_point() +\n  geom_smooth(method = \"lm\") +\n  scale_color_manual(\n    values = c(\n      brand$color$palette$red,\n      brand$color$palette$yellow,\n      brand$color$palette$blue\n    )\n  ) +\n  labs(title = \"A plot with brand colors\") +\n  brand_theme\n\n`geom_smooth()` using formula = 'y ~ x'"
+    "text": "This is a brand colors example:"
   },
   {
     "objectID": "examples/index.html",

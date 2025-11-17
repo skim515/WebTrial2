@@ -11,6 +11,7 @@ meta:
 color:
   # Colors from MoMAColors::moma.colors("ustwo"), supplemented with CARTOColors (Prism)
   palette:
+    JNUdeep: "#0B5A39"
     blue: "#008d98"    # ustwo
     indigo: "#5F4690"  # Prism
     purple: "#994E95"  # Prism
@@ -38,7 +39,7 @@ color:
 
   foreground: black
   background: off-white
-  primary: red
+  primary: JNUdeep
   secondary: blue
   tertiary: teal
   dark: black
@@ -59,7 +60,7 @@ typography:
   headings:
     family: Alan Sans
     weight: 700
-    color: red
+    color: JNUdeep
 
   link:
     weight: 700
