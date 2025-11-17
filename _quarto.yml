@@ -8,12 +8,12 @@ website:
   title: "WebTrial2"
   description: "Nothing"
   cookie-consent: true
-  page-footer: "Copyright© 2025 Soyoung KIM. All rights reserved."
+  page-footer: "Copyright© 2025 Soyoung KIM."
   announcement: 
-    content: "This is my playground site."
+    content: "This site is under construction."
   navbar:
     left:
-      - text: Home
+      - text: "{{< fa home >}} Home"
         href: index.qmd
       - text: "{{< fa user >}} About"
         href: about/index.qmd
@@ -27,7 +27,8 @@ website:
       - dashboard.qmd
     right:
       - icon: github
-        href: https://www.github.com 
+        href: https://www.github.com
+        target: "_blank" # open in a new tap
 
   sidebar:
     - title: "{{< fa lightbulb >}} Examples"

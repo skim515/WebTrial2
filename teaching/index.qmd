@@ -3,9 +3,8 @@ title: "Basic Statistics"
 format: live-html
 engine: knitr
 ---
-{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
 
-
+{{< include ../_extensions/r-wasm/live/_knitr.qmd >}}
 
 ```{webr}
 #| warning: false
@@ -19,3 +18,5 @@ p <- ggplot(mpg, aes(x = displ, y = hwy)) +
 ggplotly(p)
 
 ```
+
+

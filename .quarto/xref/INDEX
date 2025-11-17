@@ -19,5 +19,8 @@
   },
   "dashboard.qmd": {
     "dashboard.html": "09fec219"
+  },
+  "about/index.qmd": {
+    "index.html": "db369a70"
   }
 }
